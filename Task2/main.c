@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int snadonize(int howDeep, int *constData, int size, int target) {
+int snadonize(int howDeep, int *constData, int size, int target)
+{
     if (howDeep == 0) {
         int best = target;
         int otv = 0;

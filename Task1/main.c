@@ -12,6 +12,7 @@ int main()
         printf("%lld %lld", w, h);
         return 0;
     }
+    
     printf("%lld %lld", h, w);
     return 0;
 }
